@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/Create-a-website-for-sell-houses/static/css/main.e546749b.css",
+    "main.js": "/Create-a-website-for-sell-houses/static/js/main.b17ebf95.js",
+    "static/media/about.jpg": "/Create-a-website-for-sell-houses/static/media/about.56e92b20e762df2fa5de.jpg",
+    "static/media/immio.jpg": "/Create-a-website-for-sell-houses/static/media/immio.44af39fb330d32b3db39.jpg",
+    "static/media/pricing.jpg": "/Create-a-website-for-sell-houses/static/media/pricing.4552ccf3b91e93029513.jpg",
+    "static/media/city-1.png": "/Create-a-website-for-sell-houses/static/media/city-1.00ae34661db4c4311114.png",
+    "static/media/services.jpg": "/Create-a-website-for-sell-houses/static/media/services.13be7fde05782bd5e2e8.jpg",
+    "static/media/p-1.png": "/Create-a-website-for-sell-houses/static/media/p-1.53b793d8b6b646fe9ae0.png",
+    "static/media/banner.png": "/Create-a-website-for-sell-houses/static/media/banner.1a3c8a0a448e8e24f6a0.png",
+    "static/media/h1.png": "/Create-a-website-for-sell-houses/static/media/h1.39627af04b11bb28d173.png",
+    "static/media/team-1.jpg": "/Create-a-website-for-sell-houses/static/media/team-1.6f5246fc683bce47ecac.jpg",
+    "static/media/google.png": "/Create-a-website-for-sell-houses/static/media/google.cadee8cdb0c0afb1a713.png",
+    "static/media/apple.png": "/Create-a-website-for-sell-houses/static/media/apple.1511c3d419cb16aec154.png",
+    "index.html": "/Create-a-website-for-sell-houses/index.html",
+    "main.e546749b.css.map": "/Create-a-website-for-sell-houses/static/css/main.e546749b.css.map",
+    "main.b17ebf95.js.map": "/Create-a-website-for-sell-houses/static/js/main.b17ebf95.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e546749b.css",
+    "static/js/main.b17ebf95.js"
+  ]
+}
