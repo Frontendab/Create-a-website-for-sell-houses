@@ -1,0 +1,16 @@
+
+
+.awards {
+    width: 100%;
+    height: fit-content;
+    background: #122947;
+}
+.awards i {
+    font-size: 50px;
+    background: #2a3f5a;
+    padding: 35px;
+    border-radius: 0 40% 0 40%;
+}
+.awards h2{
+    font-size: 65px;
+}

@@ -1,0 +1,28 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+#heading{
+    width: 100%;
+    padding-bottom: 50px;
+}
+#heading h1{
+    color: #2d3954;
+}
+#heading p{
+    color: #717f9b;
+    font-size: 20px;
+}
+@media (min-width:500px) and (max-width:991px){
+    #heading{
+        padding-left: 20px !important;
+        padding-right: 20px !important;
+    }
+}
+@media (max-width:500px){
+    #heading{
+        padding-left: 20px !important;
+        padding-right: 20px !important;
+    }
+}

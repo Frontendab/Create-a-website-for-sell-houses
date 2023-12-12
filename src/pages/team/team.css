@@ -1,0 +1,68 @@
+.box{
+    background: white;
+    border: 1px solid #ebe8f2;
+    border-radius: 3px;
+    transition: .3s;
+    cursor: pointer;
+}
+.box:hover{
+    box-shadow: 0 0 10px 0 #ebe8f2;
+}
+.box > h6{
+    width: fit-content;
+    background: #ff6922;
+    padding: 18px 25px;
+    border-radius: 25px;
+}
+.img-icon{
+    position: relative;
+}
+.img-icon img{
+    width: 100px;
+    border-radius: 50%;
+    position: relative;
+}
+.img-icon .img
+{
+    margin-top: 25px;
+}
+.img-icon .img::after{
+    content: '';
+    position: absolute;
+    width: 125px;
+    height: 125px;
+    border: 5px solid #edf0f5;
+    border-radius: 50%;
+    left: 50%;
+    top: 47%;
+    transform: translate(-50%, -47%);
+}
+.img-icon i{
+    font-size: 18px;
+    margin-left: -10px;
+    position: absolute;
+    margin-top: 40px;
+}
+#Ps{
+    padding: 10px;
+    display: grid;
+    place-items: center;
+    border-radius: 50%;
+}
+#Ps:nth-child(1){
+    padding: 10px 13px;
+}
+#Ps i{
+    font-size: 20px;
+}
+.parent-btns button{
+    border-radius: 3px;
+    font-size: 20px;
+}
+.parent-btns button:nth-child(1) i{
+    font-size: 20px;
+}
+.parent-btns button:nth-child(2) i{
+    font-size: 28px;
+    padding: 0 23px;
+}

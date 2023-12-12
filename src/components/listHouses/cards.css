@@ -1,0 +1,65 @@
+#mainCARDS,
+#team,
+.main-prices{
+    grid-gap: 30px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+.CARDS {
+    height: fit-content !important;
+}
+.category h5{
+    margin: 0;
+    background: gainsboro;
+    padding: 8px 20px;
+    font-size: 13px;
+}
+.category i{
+    font-size: 26px;
+    color: #bec7d8 !important;
+}
+.category .forRent{    
+    background: #fff4e5;
+    color: #ff6e00;
+}
+.category .noForRent{
+    background: #d7e4de;
+    color: #12ad6c;
+}
+.text #name{
+    font-size: 20px;
+}
+.text a{
+    margin: 0;
+    margin-left: 10px;
+    font-size: 17px !important;
+    margin-top: 3px;
+    text-decoration: none;
+}
+.text #iconMap{
+    margin-top: 5px;
+}
+.text .type{
+    line-height: 50.5px;
+}
+.text button{
+    font-size: 30px;
+    border-radius: 30px;
+}
+.prices{
+    border-top: 1px solid #CCC !important; 
+}
+@media (min-width:768px) and (max-width:1055px){
+    #mainCARDS,
+    #team,
+    .main-prices{
+        grid-template-columns: repeat(2,1fr);
+    }
+}
+@media (max-width:767px){
+    #mainCARDS,
+    #team,
+    .main-prices{
+        grid-template-columns: repeat(1,1fr);
+    }
+}

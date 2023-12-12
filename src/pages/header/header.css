@@ -1,0 +1,232 @@
+/*TODO: >>>>>>>>>>>>>>>  START HEADER */
+.navbar-collapse{
+    display: flex;
+    justify-content: space-around;
+}
+#container-header,
+.title-Home,
+.BOXS,
+.features,
+.CARDS,
+#location,
+#team,
+.main-prices{
+    width: 84%;
+    margin: auto;
+    height: 90px;
+}
+.navbar .navbar-brand img{
+    width: 170px;
+}
+ul li{
+    font-size: 18px !important;
+    text-transform: capitalize;
+}
+#login{
+    display: none;
+}
+ul li:nth-child(1) a {
+    margin-left: 0;
+}
+ul li a {
+    font-weight: 500 !important;
+    font-size: 16px !important;
+    color: black !important;
+    transition: .3s;
+}
+ul li a:hover{
+    color: #27ae60 !important;
+}
+.container-fluid .content{
+    background: url('../../imgs/banner.png'), no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.btns{
+    display: flex;
+    justify-content: space-between;
+    font-weight: 500;
+}
+.my-list{
+    margin-top: 22px;
+}
+.span-success {
+    border-radius: 50%;
+    height: 25px;
+    width: 25px;
+    line-height: 10px;
+    font-size: 15px;
+    background: #27ae60;
+}
+.btn-head{
+    background: #27ae60;
+    padding: 15px 35px !important;
+    border-radius: 5px;
+}
+@media (min-width:992px) and (max-width:1149px) {
+    #container-header,
+    .title-Home,
+    .BOXS,
+    .features,
+    .CARDS,
+    #location,
+    #team,
+    .main-prices{
+        width: 98%;
+    }
+}
+@media (max-width:991px){
+    .navbar-toggler{
+        font-size: 28px;
+        background: #27ae60;
+    }
+    #login{
+        display: block;
+    }
+    .btns{
+        display: none !important;
+    }
+    .navbar-nav{
+        position: absolute;
+        width: 100%;
+        top: 70px;
+        background: #27ae60;
+        z-index: 99999;
+    }
+    ul{
+        flex-direction: column;
+    }
+    ul li.m-1{
+        padding: 0;
+        margin: 15px 55px !important;
+    }
+    ul li a{
+        color: white !important;
+    }
+    ul li a:hover{
+        color: white !important;
+    }
+}
+/*TODO: >>>>>>>>>>>>>>>  START CONTENT */
+.title-Home{
+    position: relative;
+    top: 35%;
+    transform: translateY(-35%);
+    height: fit-content;
+}
+.title-Home h1{
+    font-size: 5.5rem;
+}
+.title-Home p{
+    font-size: 1.5rem;
+}
+.BOXS{
+    position: relative;
+    top: 45%;
+    transform: translateY(-45%);
+    height: fit-content;
+    border-radius: 5px;
+    background: white;
+}
+.BOXS input{
+    padding: 4px 5px;
+    border: 1px solid #e6e6e6;
+    border-radius: 3px;
+    width: 100%;
+    outline: none;
+}
+.BOXS div{
+    padding: 10px 16px;
+    padding-bottom: 1px;
+}
+.BOXS div:nth-child(2),
+.BOXS div:nth-child(3),
+.BOXS div:nth-child(4){
+    border-left: 1px solid #e6e6e6;
+}
+.BOXS div:nth-child(4) h5{
+    font-size: 18px;
+}
+.BOXS div:nth-child(4),
+.BOXS div:nth-child(5){
+    display: grid;
+    place-items: center;
+    height: 115px;
+}
+.BOXS div:nth-child(5) i{
+    background: #27ae60;
+    font-size: 35px;
+    padding: 10px;
+    color: white;
+    border-radius: 8px;
+    cursor: pointer;
+}
+@media (max-width:991px) {
+    .BOXS div{
+        padding: 10px 16px;
+    }   
+}
+@media (max-width:500px) {
+    .title-Home{
+        top: 25%;
+        transform: translateY(-25%);
+    }
+    .BOXS{
+        top: 35%;
+        transform: translateY(-35%);
+    }
+    .title-Home h1{
+        font-size: 3.5rem;
+    }
+    .title-Home p{
+        font-size: 18px;
+    }
+    .BOXS div:nth-child(4),
+    .BOXS div:nth-child(5){
+    display: block;
+    place-items: none;
+    height: 82px;
+    align-items: center;
+    }
+    .BOXS div:nth-child(5) i{
+        font-size: 30px;
+    }
+    .BOXS div:nth-child(4){
+        padding-bottom: 0;
+    }
+    .BOXS div:nth-child(5){
+        padding-top: 0;
+    }
+}
+@media (min-width:501px) and (max-width:991px) {
+    .title-Home{
+        top: 25%;
+        transform: translateY(-25%);
+    }
+    .BOXS{
+        top: 35%;
+        transform: translateY(-35%);
+    }
+    .title-Home h1{
+        font-size: 3.5rem;
+    }
+    .title-Home p{
+        font-size: 18px;
+    }
+    .BOXS div:nth-child(4),
+    .BOXS div:nth-child(5){
+    display: block;
+    place-items: none;
+    height: 82px;
+    align-items: center;
+    }
+    .BOXS div:nth-child(5) i{
+        font-size: 30px;
+    }
+    .BOXS div:nth-child(4){
+        padding-bottom: 0;
+    }
+    .BOXS div:nth-child(5){
+        padding-top: 0;
+    }
+}

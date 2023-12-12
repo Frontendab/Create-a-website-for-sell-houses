@@ -1,0 +1,53 @@
+.main-prices{
+    height: fit-content !important;
+}
+.d1{
+    position: relative;
+    top: 66%;
+    transform: translateY(-73%);
+}
+.isCheck{
+    background: #e5f5ec;
+    color: #27ae60;
+}
+.noCheck{
+    background: #fbe6e8;
+    color: #dc384d;
+}
+.isCheck,
+.noCheck{
+    width: 40px;
+    height: 40px;
+    padding: 10px;
+    border-radius: 50%;
+    line-height: 20px;
+}
+.boxPrice div > h5{
+    font-size: 40px;
+}
+.boxPrice div h2{
+    font-size: 60px;
+}
+.boxPrice div #h5{
+    font-size: 20px;
+}
+.boxPrice div .d-grid {
+    place-items: center;
+}
+.d1 #p1{
+    font-size: 20px;
+    width: fit-content;
+    padding: 12px 20px;
+    background: #ff6922;
+    border-radius: 25px;
+}
+.boxPrice{
+    height: fit-content;
+}
+.buyBtn button{
+    position: relative;
+    width: 90%;
+    border-radius: 50px;
+    border: 5px solid #e5f5ec;
+    font-size: 25px;
+}

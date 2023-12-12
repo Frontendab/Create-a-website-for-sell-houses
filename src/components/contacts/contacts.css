@@ -1,0 +1,10 @@
+.container {
+    padding: 40px 20px;
+}
+.container .content {
+    padding: 10px 30px;
+    background: aliceblue;
+}
+input{
+    margin: 6px 0;
+}
